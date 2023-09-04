@@ -242,7 +242,11 @@ body {
   /* トップページのメニューリストには別途paddingの設定（マルチクラス） */
   padding-bottom: 50px;
 }
-
+.menuPancakeList{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*para centrar elementos horizontalmente */
+}
 .menu_item {
   width: 49%;
   display: flex;
@@ -273,7 +277,11 @@ body {
   font-size: 18px;
   font-family: 'Noto Serif JP', serif;
 }
-
+.menuPancake{
+  width: 100%;
+  /*margin: 20px 0; /* Margen entre elementos */
+  text-align: center; /* Centra el contenido del elemento */
+}
 /* ボタンコンポーネント */
 .btn {
   padding: 10px 20px;
